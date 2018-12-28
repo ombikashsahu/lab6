@@ -6,16 +6,13 @@ using namespace std;
 // call the function
 //number as arguement 
 // tell the sum to user
-	int ask (int& a, int& b)
+	void ask (int& a, int& b)
  	 	{
 			 cout<< "enter the first number = "<<endl;
 			 cin>>a;
 	 		 cout<< "enter the second number = "<<endl;
 	 		 cin>>b;
 	 		 
- 		}
-	void sum (int& a, int& b)
- 	 	{
 			 
 	 		 int sum = a+b;
 	 		 cout<< "sum = "<< sum <<endl;
